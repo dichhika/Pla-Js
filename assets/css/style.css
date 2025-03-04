@@ -49,28 +49,36 @@ color:blue;
     }
     
 }
-.header{
-    background-color: rgb(31, 31, 78);
-    /* color: white; */
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-
-    a{
-        text-decoration: none;
-        /* color: white; */
-    }
-    
-    a:hover{
-        color: blue;
-        cursor: pointer;
-
-    }
+nav {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(31, 31, 78);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
+a {
+  text-decoration: none;
+  color: white;
+ 
+}
+a:hover{
+color: blue;
+cursor: pointer;
+
+}
+.menu {
+  display: flex;
+  gap: 25px;
+}
+.hambur {
+  display: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
 .contact{
     margin: 50px;
     padding: 50px;

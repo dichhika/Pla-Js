@@ -36,13 +36,22 @@
       </div>
     </div>
     <!-- header section -->
-    <div class="header">
+    <nav>
+      <div class="hambur" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i>
+      </div>
+    <div class="menu" id="menu">
       <a href="index.html">HOME</a>
       <a href="about.html">ABOUT</a>
-      <a href="service.html">SERVICE</a>
-      <a href="team.html">TEAM</a>
+      <a href="service.html" >SERVICE</a>
+      <a href="team.html" >TEAM</a>
       <a href="contact.html" class="active">CONTACT</a>
     </div>
+  </nav>
+  <script>
+      function toggleMenu() {
+          document.getElementById("menu").classList.toggle("show");
+      }
+  </script>
     
     <!-- contact section -->
     <section class="contact">

@@ -6,13 +6,26 @@
 
     }
 }
-    @media (max-width: 756px) {
-        .header {
-            display: flex;
-            flex-direction: column;
-            width: auto;
-}
+@media (max-width: 765px) {
+    .menu {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+         background-color: rgb(31, 31, 78);
+        width: 100%;
+        text-align: center;
+        padding: 10px ;
     }
+    .menu.show {
+        display: flex;
+    }
+    .hambur {
+        display: block;
+        
+    }
+  }
  
     /* second image and feature parts */
     @media (max-width:756px){
