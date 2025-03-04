@@ -1,0 +1,331 @@
+/* Responsive  */
+/* home page css  */
+@media (max-width: 756px){
+    .topnav{
+      display: none;
+
+    }
+}
+    @media (max-width: 756px) {
+        .header {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+}
+    }
+ 
+    /* second image and feature parts */
+    @media (max-width:756px){
+        .feature{
+        p{
+            font-size: 15px;
+            padding: 2px;
+        }    
+        
+    }
+    .cardinfo1{
+        width: 80%;
+                
+    }
+}
+    
+    @media (max-width:656px){
+        .feature{
+            /* margin: 10px; */
+           margin-left: 22px;
+
+        }
+        .features-icon {
+           margin: 10px;
+            icon{
+                gap:5px;
+            }
+            div{
+                width: 100%;
+            }  
+        }
+        .icons i{
+            font-size: 20px;
+         
+        }
+        .icons  div {
+          
+                h2 {
+                    font-size: 25px;
+                    
+                }
+            }
+        }
+    @media (max-width:556px){
+        .features-icon {
+            flex-wrap: wrap;  
+        }
+        }
+
+        @media (max-width:850px){
+            .card1{
+                
+                padding: 0px;
+                flex-wrap: wrap;
+                /* gap:20px; */
+             
+            }
+        }
+    /* home card parts */
+    @media (max-width:500px){
+        .card1{
+            margin: 10px;
+            padding: 0px;
+            flex-wrap: wrap;
+            /* gap:20px; */
+         
+        }
+        .end{
+            h2{
+                margin-left: 0px;
+            }
+        }
+        .choose{
+            h3{
+                margin-left: 0rem;
+            }
+        }
+        
+    } 
+    @media (max-width:1130px){
+    .partners{
+        flex-wrap: wrap;
+    }
+    .feature{
+        flex-wrap: wrap;
+        img{
+            width: 100%;
+            margin: 10px;
+        }
+    }
+}
+
+
+  /* contact page card parts */
+  @media (max-width:1056px){
+    .map iframe{
+    width: 100%;
+  }
+}
+@media (max-width:850px) {
+    .main{
+   flex-wrap: wrap;
+   }
+}
+  @media (max-width:650px) {
+    .topic h4{
+        font-size: 20px;
+    }
+    .info{
+        /* margin-left: -20px; */
+        padding: 12px;
+        width: 100%;
+        i{
+            font-size: 15px;
+            padding: 5px;
+            margin: 15px;
+           }
+
+    }
+ .info div{
+    margin: 0px;
+    line-height: 25px;   
+
+    h4{
+        font-size: 18px;
+        padding: 5px;
+    }
+    p{
+        font-size: 12px;
+    }
+ }
+}
+  @media (max-width:1156px){
+    .contact{
+        margin: 0px;
+        /* width: 100%; */
+    }
+   .main{
+    margin: 0px;
+   }
+   .card{
+    width:100%;
+    
+   }
+ .map{
+    width: 100%;
+ }
+  }
+
+ /* responsive team page media css */
+@media (max-width:1000px){
+    .container{
+        padding: 10px;
+    }
+   
+
+   .team{
+       margin: 10px;
+      grid-template-columns: repeat(3, 1fr);
+       
+      
+   }
+  
+}
+@media (max-width: 868px) {
+    .team {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .team {
+      grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:450px) {
+   
+   .team-card{
+   h2,p{
+       font-size: 20px;
+   }
+}
+}
+@media (max-width:1400px) and (min-width:850px){
+   .team-card{
+    left:60px;
+   }
+  
+}
+/* service css */
+@media (max-width: 1024px) {
+    .service {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .service-container{
+        padding: 20px;
+        
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .service {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .service {
+      grid-template-columns: 1fr;
+    }
+
+  }
+  /* about page css  */
+  
+   @media (max-width:500px){
+   
+    .img1{
+        display: none;
+    }
+
+   }
+   @media (max-width:1350px) and (min-width:1180px){
+    .aboutus{
+       margin-right:-5rem;
+       
+    }
+    
+}
+@media (max-width:1260px) and (min-width:980px){
+
+.manage{
+    margin: 10px;
+     img{
+         width: 400px;
+     }
+    
+ }
+}
+@media (max-width:750px){
+.vision{
+    flex-wrap: wrap;
+}
+}
+   @media (max-width:1370px){
+    .vision{
+          img{
+             width:100%;
+         }
+         li{
+            width: auto;
+           }
+     }
+     .manage p{
+        width: 100%;
+        font-size: 20px;
+     }
+}
+@media(max-width:680px){
+    .img2{
+        display: none;
+    }
+    .img1{
+        height: 120px;
+        
+    }
+    .aboutus{
+        margin-top: 0px;
+        p{
+            padding: 10px;
+        }
+    }
+    .manage{
+        img{
+           height: auto;
+           margin: 0px;
+        }
+}
+
+}
+@media (max-width:1180px) and (min-width:1000px){
+    .about{
+       gap:150px;  
+    }
+}
+   @media (max-width:1000px){
+
+     .about{
+        flex-wrap: wrap;
+        gap:13rem;
+     }
+     .aboutus{
+        width: 100%;
+        margin-right: 0px;
+     }
+     .manage{
+        flex-wrap: wrap;
+        img{
+            width: 100%;
+        }
+        p{
+            width: 100%;
+        }
+     }
+     .vision-mission{
+         margin: 0px;
+         padding: 10px;
+         button{
+             margin: 5px;
+         }
+         h3{
+           font-size: 20px;
+         }
+     }
+    
+    }
